@@ -19,7 +19,7 @@ namespace OrangeVote.ViewModel
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
-        public MainViewModel()
+        public MainViewModel ()
         {
             ////if (IsInDesignMode)
             ////{
