@@ -267,40 +267,19 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Utils/HttpHelper.cs</url>
           <line>86</line>
-          <properties documentPath="$PROJECT_DIR$/Utils/HttpHelper.cs" initialLine="86">
-            <startOffsets>
-              <option value="2728" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2729" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Utils/HttpHelper.cs" initialLine="86" />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Utils/HttpHelper.cs</url>
           <line>87</line>
-          <properties documentPath="$PROJECT_DIR$/Utils/HttpHelper.cs" initialLine="87">
-            <startOffsets>
-              <option value="2742" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2790" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Utils/HttpHelper.cs" initialLine="87" />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Utils/HttpHelper.cs</url>
           <line>88</line>
-          <properties documentPath="$PROJECT_DIR$/Utils/HttpHelper.cs" initialLine="88">
-            <startOffsets>
-              <option value="2799" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2800" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Utils/HttpHelper.cs" initialLine="88" />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>

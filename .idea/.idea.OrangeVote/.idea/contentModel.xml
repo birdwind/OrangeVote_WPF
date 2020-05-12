@@ -8,23 +8,18 @@
       <e p="App.xaml" t="Include" />
       <e p="App.xaml.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Common" t="Include">
-        <e p="PasswordBoxHelper.cs" t="Include" />
-      </e>
+      <e p="Controls" t="Include" />
+      <e p="Converters" t="Include" />
+      <e p="Font" t="Include" />
       <e p="Image" t="Include" />
-      <e p="LoginWindow.xaml" t="Include" />
-      <e p="LoginWindow.xaml.cs" t="Include" />
-      <e p="Model" t="Include">
-        <e p="LoginModel.cs" t="Include" />
-      </e>
+      <e p="MainWindow.xaml" t="Include" />
+      <e p="MainWindow.xaml.cs" t="Include" />
+      <e p="Model" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="App.g.cs" t="Include" />
           <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
-          <e p="LoginWindow.g.cs" t="Include" />
-          <e p="View" t="Include">
-            <e p="MainView.g.cs" t="Include" />
-          </e>
+          <e p="MainWindow.g.cs" t="Include" />
         </e>
       </e>
       <e p="OrangeVote.csproj" t="IncludeRecursive" />
@@ -38,23 +33,9 @@
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
       </e>
-      <e p="Service" t="Include" />
-      <e p="Style" t="Include">
-        <e p="Color.xaml" t="Include" />
-      </e>
-      <e p="Utils" t="Include">
-        <e p="HttpHelper.cs" t="Include" />
-        <e p="PageManager.cs" t="Include" />
-      </e>
-      <e p="View" t="Include">
-        <e p="MainView.xaml" t="Include" />
-        <e p="MainView.xaml.cs" t="Include" />
-      </e>
+      <e p="Style" t="Include" />
+      <e p="View" t="Include" />
       <e p="ViewModel" t="Include">
-        <e p="Base" t="Include">
-          <e p="BaseViewModel.cs" t="Include" />
-        </e>
-        <e p="LoginWindowViewModel.cs" t="Include" />
         <e p="MainViewModel.cs" t="Include" />
         <e p="ViewModelLocator.cs" t="Include" />
       </e>
