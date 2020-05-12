@@ -70,7 +70,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="API\PageManager.cs" />
+    <Compile Include="Common\PasswordBoxHelper.cs" />
+    <Compile Include="Model\LoginModel.cs" />
+    <Compile Include="Utils\HttpHelper.cs" />
+    <Compile Include="Utils\PageManager.cs" />
+    <Compile Include="ViewModel\Base\BaseViewModel.cs" />
+    <Compile Include="ViewModel\LoginWindowViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="View\MainView.xaml.cs">

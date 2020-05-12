@@ -4,15 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OrangeVote"
+        xmlns:viewModel="clr-namespace:OrangeVote.ViewModel"
+        xmlns:utils="clr-namespace:OrangeVote.Utils"
         mc:Ignorable="d"
         Title="OMS-小椪柑志工服務隊" Height="300" Width="300">
+    <Window.DataContext>
+        <viewModel:LoginWindowViewModel />
+    </Window.DataContext>
     <Grid>
-        <Border Background="AliceBlue"></Border>
+        <Border Background="AliceBlue" />
         <StackPanel VerticalAlignment="Center" Margin="50,0">
             <Label x:Name="LbLogo" HorizontalAlignment="Center" FontSize="20">OMS</Label>
-            <TextBox x:Name="TbUsername" VerticalAlignment="Center" Margin="0,0,0,5"/>
-            <PasswordBox x:Name="PbPassword" Margin="0,0,0,5"></PasswordBox>
-            <Button x:Name="BnTemp" Width="40px" Height="20px">登入</Button>
+            <TextBox x:Name="TbUsername" VerticalAlignment="Center" Margin="0,0,0,5"
+                     Text="{Binding Username, Mode=TwoWay}" />
+            <PasswordBox x:Name="PbPassword" Margin="0,0,0,5"
+                         utils:PasswordBoxHelper.Password="{Binding Password,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <Button x:Name="BnTemp" Width="40px" Height="20px" Command="{Binding ClickLogin}">登入</Button>
         </StackPanel>
     </Grid>
 </Window>

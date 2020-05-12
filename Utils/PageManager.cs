@@ -1,4 +1,4 @@
-﻿namespace OrangeVote.API
+﻿namespace OrangeVote.Utils
 {
     public class PageManager
     {
