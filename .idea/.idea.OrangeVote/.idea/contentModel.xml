@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_OrangeVote.-1809175013.00" t="ExcludeRecursive" />
+    <e p="C:\WPF Project\OrangeVote" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Common" t="Include">
+        <e p="PasswordBoxHelper.cs" t="Include" />
+      </e>
+      <e p="Image" t="Include" />
+      <e p="LoginWindow.xaml" t="Include" />
+      <e p="LoginWindow.xaml.cs" t="Include" />
+      <e p="Model" t="Include">
+        <e p="LoginModel.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="App.g.cs" t="Include" />
+          <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+          <e p="LoginWindow.g.cs" t="Include" />
+          <e p="View" t="Include">
+            <e p="MainView.g.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="OrangeVote.csproj" t="IncludeRecursive" />
+      <e p="OrangeVote.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Settings.Designer.cs" t="Include" />
+        <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="Service" t="Include" />
+      <e p="Style" t="Include">
+        <e p="Color.xaml" t="Include" />
+      </e>
+      <e p="Utils" t="Include">
+        <e p="HttpHelper.cs" t="Include" />
+        <e p="PageManager.cs" t="Include" />
+      </e>
+      <e p="View" t="Include">
+        <e p="MainView.xaml" t="Include" />
+        <e p="MainView.xaml.cs" t="Include" />
+      </e>
+      <e p="ViewModel" t="Include">
+        <e p="Base" t="Include">
+          <e p="BaseViewModel.cs" t="Include" />
+        </e>
+        <e p="LoginWindowViewModel.cs" t="Include" />
+        <e p="MainViewModel.cs" t="Include" />
+        <e p="ViewModelLocator.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
